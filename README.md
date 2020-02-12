@@ -4,6 +4,8 @@ Structural Deep Clustering Network
 # Paper
 https://arxiv.org/abs/2002.01633
 
+https://github.com/461054993/SDCN/blob/master/SDCN.pdf
+
 # Dataset
 Due to the limitation of file size, the complete data can be found in Baidu Netdisk:
 
