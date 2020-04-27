@@ -26,7 +26,7 @@ python sdcn.py --name [usps|hhar|reut|acm|dblp|cite]
   A: In general, if you want to apply our model to other datasets, three steps are required.
   1) Construct the KNN graph based on the similarity of features. Details can be found in ```calcu_graph.py```.
   2) Pretrain the autoencoder and save the pre-trained model. Details can be found in ```data/pretrain.py```.
-  3) Replace the args in sdcn.py and run the code.
+  3) Replace the args in ```sdcn.py``` and run the code.
 
 # Reference
 If you make advantage of the SDCN model in your research, please cite the following in your manuscript:
