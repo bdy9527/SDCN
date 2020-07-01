@@ -31,10 +31,17 @@ python sdcn.py --name [usps|hhar|reut|acm|dblp|cite]
 # Reference
 If you make advantage of the SDCN model in your research, please cite the following in your manuscript:
 ```
-@article{sdcn2020,
-title={Structural Deep Clustering Network},
-author={Deyu, Bo and Xiao, Wang and Chuan, Shi and Meiqi, Zhu and Emiao, Lu and Peng, Cui},
-journal={WWW},
-year={2020}
+@inproceedings{sdcn2020,
+  author    = {Deyu Bo and
+               Xiao Wang and
+               Chuan Shi and
+               Meiqi Zhu and
+               Emiao Lu and
+               Peng Cui},
+  title     = {Structural Deep Clustering Network},
+  booktitle = {{WWW}},
+  pages     = {1400--1410},
+  publisher = {{ACM} / {IW3C2}},
+  year      = {2020}
 }
 ```
