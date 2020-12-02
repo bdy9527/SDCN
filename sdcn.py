@@ -85,13 +85,15 @@ class SDCN(nn.Module):
     def forward(self, x, adj):
         # DNN Module
         x_bar, tra1, tra2, tra3, z = self.ae(x)
+        
+        sigma = 0.5
 
         # GCN Module
         h = self.gnn_1(x, adj)
-        h = self.gnn_2(h+tra1, adj)
-        h = self.gnn_3(h+tra2, adj)
-        h = self.gnn_4(h+tra3, adj)
-        h = self.gnn_5(h+z, adj, active=False)
+        h = self.gnn_2((1-sigma)*h + sigma*tra1, adj)
+        h = self.gnn_3((1-sigma)*h + sigma*tra2, adj)
+        h = self.gnn_4((1-sigma)*h + sigma*tra3, adj)
+        h = self.gnn_5((1-sigma)*h + sigma*z, adj, active=False)
         predict = F.softmax(h, dim=1)
 
         # Dual Self-supervised Module
