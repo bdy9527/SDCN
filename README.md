@@ -7,11 +7,19 @@ https://arxiv.org/abs/2002.01633
 https://github.com/461054993/SDCN/blob/master/SDCN.pdf
 
 # Dataset
-Due to the limitation of file size, the complete data can be found in Baidu Netdisk:
+Due to the limitation of file size, the complete data can be found in 
+
+Baidu Netdisk:
 
 graph: 链接:https://pan.baidu.com/s/1MEWr1KyrtBQndVNy8_y2Lw  密码:opc1
 
 data: 链接:https://pan.baidu.com/s/1kqoWlElbWazJyrTdv1sHNg  密码:1gd4
+
+Google Drive:
+
+graph: https://drive.google.com/file/d/10rnVwIAuVRczmZJSX7mpSTR0-HVnMWLh/view?usp=sharing
+
+data: https://drive.google.com/file/d/1VjH6xqt82GaQwwiy-4O2GedMgQMLN6dm/view?usp=sharing
 
 # Code
 ```
